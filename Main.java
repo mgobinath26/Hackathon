@@ -49,6 +49,7 @@ public class Main {
 			obj.put("AverageMemory(MB)", df.format(average));
 			obj.put("values: ", obj1);
 			obj.put("MaximumMemory(MB)", df.format(max));
+			obj.put("Usecasename", "HomePage");
 //			File myFile = new File("C:/MyTestFile.txt");
 // 			// check if file exist, otherwise create the file before writing
 //			if (!myFile.exists()) {
