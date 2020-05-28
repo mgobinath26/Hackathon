@@ -3,12 +3,13 @@ import java.io.*;
 import java.text.DecimalFormat;
 import java.math.RoundingMode;
 
-import org.json.JSONObject;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-		double[] a = new double[10000];
+		double[] a = new double[1000];
 		JSONObject obj = new JSONObject();
 		JSONObject obj1 = new JSONObject();
 		File file = new File("D://Memory.txt");
@@ -16,49 +17,55 @@ public class Main {
 			String readLine;
 			double temp;
 			int line = 0;
-			int i = 0;
+			int i = 0, count = 0;
+			String str;
 			double sum = 0.0;
 			double max = 0.0;
 			while ((readLine = bf.readLine()) != null) {
 				if (line % 2 != 0) {
+					str = readLine;
 
-					String str = readLine;
-					str = str.replaceAll("[^0-9]", "");
-					str = str.trim();
+					StringTokenizer st = new StringTokenizer(str, " ");
+					String s1 = st.nextToken();
+					str = st.nextToken();
+					count++;
 
 					temp = Integer.parseInt(str);
 
-					a[i++] = temp / 10000;
+					a[i++] = temp / 1024;
 
 				}
 				line++;
 			}
+
 			String str1;
-			for (int j = 0; j < 938; j++) {
-				str1 = String.format("%d", j);
-				obj1.put(str1 + "s", a[j]);
+			for (int j = 0; j < count; j++) {
+				str1 = String.format("%.2f", a[j]);
+				obj1.put(j + "s", str1);
 				if (max < a[j])
 					max = a[j];
 				sum = sum + a[j];
 			}
 
-			double average = sum / 938;
+			double average = sum / count;
+			String pattern = String.format("%.2f", average);
+			String pattern1 = String.format("%.2f", max);
 
-			DecimalFormat df = new DecimalFormat("#.###");
-			df.setRoundingMode(RoundingMode.CEILING);
-			obj.put("AverageMemory(MB)", df.format(average));
+			obj.put("AverageMemory(MB)", pattern);
 			obj.put("values: ", obj1);
-			obj.put("MaximumMemory(MB)", df.format(max));
+			obj.put("MaximumMemory(MB)", pattern1);
 			obj.put("Usecasename", "HomePage");
-//			File myFile = new File("C:/MyTestFile.txt");
-// 			// check if file exist, otherwise create the file before writing
-//			if (!myFile.exists()) {
-//				myFile.createNewFile();
-//			}
-// 			Writer writer = new FileWriter(myFile);
-//			BufferedWriter BufferedWriter = new BufferedWriter(writer);
-//			BufferedWriter.write(obj);
-			System.out.println(obj);
+
+			JSONArray jsonList = new JSONArray();
+			jsonList.add(obj);
+
+			try (FileWriter file1 = new FileWriter("D://output.json")) {
+				file1.write(jsonList.toString());
+				file1.flush();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
 		}
 	}
 }
