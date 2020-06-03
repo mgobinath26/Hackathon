@@ -1,0 +1,211 @@
+Daily stats:
+  Current start time: 2020-02-25-12-26-57
+  Next min deadline: 2020-02-26-01-00-00
+  Next max deadline: 2020-02-26-03-00-00
+  Daily from 2020-02-24-14-37-52 to 2020-02-25-12-26-57:
+    Charge total time: 8h 18m 14s 300ms  (from 10 steps)
+    Charge screen off time: 5h 32m 3s 400ms  (from 3 steps)
+    Charge screen on time: 10h 21m 43s 400ms  (from 5 steps)
+  Daily from 2020-02-18-11-07-19 to 2017-01-01-17-33-27:
+  Daily from 2020-02-14-11-29-21 to 2020-02-18-11-07-19:
+  Daily from 2020-02-04-07-12-23 to 2020-02-06-11-10-21:
+    Discharge total time: 4d 15h 35m 45s 500ms  (from 11 steps)
+    Discharge screen off time: 4d 15h 35m 45s 500ms  (from 11 steps)
+    Discharge screen off device idle time: 4d 15h 35m 45s 500ms  (from 11 steps)
+  Daily from 2020-02-03-11-19-49 to 2020-02-04-07-12-23:
+    Discharge total time: 11d 15h 26m 35s 800ms  (from 4 steps)
+    Discharge screen off time: 11d 15h 26m 35s 800ms  (from 4 steps)
+    Discharge screen off device idle time: 15d 8h 38m 31s 0ms  (from 1 steps)
+  Daily from 2020-01-31-10-57-11 to 2020-02-03-11-19-49:
+  Daily from 2020-01-30-05-59-23 to 2020-01-31-10-57-11:
+    Discharge total time: 5d 22h 37m 4s 100ms  (from 3 steps)
+    Discharge screen off time: 8d 16h 4m 8s 800ms  (from 2 steps)
+    Discharge screen off device idle time: 8d 16h 4m 8s 800ms  (from 2 steps)
+    Charge total time: 14h 25m 4s 900ms  (from 4 steps)
+    Charge screen on time: 14h 25m 4s 900ms  (from 4 steps)
+  Daily from 2020-01-29-06-09-01 to 2020-01-30-05-59-23:
+    Discharge total time: 12d 9h 42m 22s 800ms  (from 7 steps)
+    Discharge screen off time: 12d 9h 42m 22s 800ms  (from 7 steps)
+    Discharge screen off device idle time: 12d 9h 42m 22s 800ms  (from 7 steps)
+  Daily from 2020-01-28-05-56-09 to 2020-01-29-06-09-01:
+    Discharge total time: 9d 14h 30m 0s 500ms  (from 5 steps)
+    Discharge screen off time: 9d 14h 30m 0s 500ms  (from 5 steps)
+    Discharge screen off device idle time: 11d 19h 18m 48s 500ms  (from 4 steps)
+    Charge total time: 8h 5m 12s 800ms  (from 50 steps)
+    Charge screen off time: 6h 14m 54s 700ms  (from 37 steps)
+    Charge screen on time: 7h 52m 33s 500ms  (from 4 steps)
+  Daily from 2020-01-27-03-00-00 to 2020-01-28-05-56-09:
+    Discharge total time: 11d 4h 25m 2s 0ms  (from 8 steps)
+    Discharge screen off time: 16d 19h 33m 59s 500ms  (from 5 steps)
+    Discharge screen off device idle time: 16d 23h 8m 19s 400ms  (from 4 steps)
+    Charge total time: 15h 48m 21s 800ms  (from 11 steps)
+    Charge screen off time: 5h 51m 42s 700ms  (from 6 steps)
+    Charge screen on time: 13h 16m 42s 0ms  (from 1 steps)
+
+Statistics since last charge:
+  System starts: 0, currently on battery: false
+  Estimated battery capacity: 3000 mAh
+  Time on battery: 15m 24s 418ms (100.0%) realtime, 15m 24s 419ms (100.0%) uptime
+  Time on battery screen off: 0ms (0.0%) realtime, 0ms (0.0%) uptime
+  Total run time: 15m 24s 821ms realtime, 15m 24s 822ms uptime
+  Charge time remaining: 4h 52m 3s 0ms 
+  Discharge: 0 mAh
+  Screen off discharge: 0 mAh
+  Screen on discharge: 0 mAh
+  Start clock time: 2020-02-25-12-54-07
+  Screen on: 15m 24s 418ms (100.0%) 0x, Interactive: 15m 24s 418ms (100.0%)
+  Screen brightnesses:
+    dim 15m 24s 418ms (100.0%)
+  Mobile total received: 0B, sent: 0B (packets received 0, sent 0)
+  Phone signal levels:
+    great 15m 24s 418ms (100.0%) 0x
+  Signal scanning time: 0ms
+  Radio types: (no activity)
+  Mobile radio active time: 0ms (0.0%) 0x
+  Radio Idle time:   47s 858ms (43.1%)
+  Radio Rx time:     1m 3s 258ms (56.9%)
+  Radio Tx time:     0ms (0.0%)
+    [0] 0ms (--%)
+    [1] 0ms (--%)
+    [2] 0ms (--%)
+    [3] 0ms (--%)
+    [4] 0ms (--%)
+  Radio Power drain: 0mAh
+  Wi-Fi total received: 1.82MB, sent: 3.12MB (packets received 4003, sent 4570)
+  Wifi on: 15m 24s 418ms (100.0%), Wifi running: 15m 24s 418ms (100.0%)
+  Wifi states:
+    sta 15m 24s 418ms (100.0%) 0x
+  Wifi supplicant states:
+    completed 15m 24s 418ms (100.0%) 0x
+  Wifi signal levels:
+    level(4) 15m 24s 418ms (100.0%) 0x
+  WiFi Idle time:   3m 21s 809ms (82.4%)
+  WiFi Rx time:     41s 798ms (17.1%)
+  WiFi Tx time:     1s 207ms (0.5%)
+  WiFi Power drain: 0.900mAh
+  Bluetooth total received: 0B, sent: 0B
+  Bluetooth scan time: 15m 24s 418ms 
+  Bluetooth Idle time:   0ms (--%)
+  Bluetooth Rx time:     0ms (--%)
+  Bluetooth Tx time:     0ms (--%)
+  Bluetooth Power drain: 0mAh
+
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+
+  Estimated power use (mAh):
+    Capacity: 3000, Computed drain: 45.4, actual drain: 0
+    Screen: 36.3 Excluded from smearing
+    Idle: 6.17 Excluded from smearing
+    Cell standby: 2.01 ( radio=2.01 ) Excluded from smearing
+    Uid u0a202: 0.698 ( wifi=0.698 ) Including smearing: 45.2 ( screen=36.3 proportional=8.17 )
+    Wifi: 0.0585 ( wifi=0.0585 ) Including smearing: 0.0714 ( proportional=0.0129 )
+    Uid u0a29: 0.0523 ( wifi=0.0523 ) Including smearing: 0.0639 ( proportional=0.0116 )
+    Uid 0: 0.0284 ( wake=0.00000556 wifi=0.0283 ) Excluded from smearing
+    Uid u0a53: 0.0204 ( wifi=0.0204 ) Including smearing: 0.0249 ( proportional=0.00450 )
+    Uid u0a120: 0.0121 ( wifi=0.0121 ) Including smearing: 0.0148 ( proportional=0.00267 )
+    Uid 1000: 0.00848 ( wifi=0.00848 ) Excluded from smearing
+    Uid u0a51: 0.00846 ( wifi=0.00846 ) Including smearing: 0.0103 ( proportional=0.00187 )
+    Uid u0a174: 0.00566 ( wifi=0.00566 ) Including smearing: 0.00690 ( proportional=0.00125 )
+    Uid u0a179: 0.00379 ( wifi=0.00379 ) Including smearing: 0.00463 ( proportional=0.000837 )
+    Uid u0a203: 0.00302 ( wifi=0.00302 ) Including smearing: 0.00369 ( proportional=0.000667 )
+    Uid u0a2: 0.000620 ( sensor=0.000620 ) Excluded from smearing
+    Uid u0a215: 0.000253 ( wifi=0.000253 ) Including smearing: 0.000309 ( proportional=0.0000558 )
+
+Memory Stats
+  1000:
+    Wi-Fi network: 2.43KB received, 1.91KB sent (packets 34 received, 33 sent)
+    WiFi Idle time:   0ms (0.0%)
+    WiFi Rx time:     445ms (98.7%)
+    WiFi Tx time:     6ms (1.3%)
+    WiFi Power drain: 0mAh
+    User activity: 1 other, 6 button, 389 touch
+    Wake lock SmartManager Framework Thread realtime
+    Wake lock SEAndroid_denial_zipping realtime
+    Wake lock *alarm* realtime
+    Wake lock *vibrator* realtime
+    Wake lock NetworkStats realtime
+    Wake lock RILJ realtime
+    Wake lock wake:com.samsung.android.securitylogagent/.services.FileZippingService realtime
+    Wake lock PKMService realtime
+    Vibrator: 500ms realtime (1 times)
+    Fg Service for: 15m 24s 418ms 
+    Total running: 15m 24s 418ms 
+    Proc android.hardware.memtrack@1.0-service:
+      CPU: 370ms usr + 780ms krn ; 0ms fg
+    Proc com.samsung.android.sm.provider:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc secure_storage_daemon:
+      CPU: 130ms usr + 120ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 280ms usr + 700ms krn ; 0ms fg
+    Proc android.hardware.keymaster@3.0-service:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc com.samsung.android.fmm:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc com.samsung.android.dqagent:
+      CPU: 20ms usr + 30ms krn ; 0ms fg
+    Proc iod:
+      CPU: 20ms usr + 110ms krn ; 0ms fg
+    Proc android.hardware.graphics.allocator@2.0-service:
+      CPU: 0ms usr + 100ms krn ; 0ms fg
+    Proc com.sec.imsservice:
+      CPU: 100ms usr + 60ms krn ; 0ms fg
+    Proc vendor.samsung.hardware.vibrator@1.0-service:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc vendor.samsung.hardware.miscpower@1.0-service:
+      CPU: 140ms usr + 310ms krn ; 0ms fg
+    Proc system:
+      CPU: 1m 18s 750ms usr + 58s 20ms krn ; 0ms fg
+    Proc com.samsung.android.securitylogagent:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 starts
+    Proc hwservicemanager:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+    Proc com.samsung.android.MtpApplication:
+      CPU: 0ms usr + 20ms krn ; 0ms fg
+    Proc android.hardware.sensors@1.0-service:
+      CPU: 180ms usr + 300ms krn ; 0ms fg
+    Proc argosd:
+      CPU: 270ms usr + 260ms krn ; 0ms fg
+    Apk com.samsung.android.fmm:
+      Service com.sec.dsm.system.task.location.DSMLastLocation:
+        Created for: 24ms uptime
+        Starts: 1, launches: 1
+    Apk com.samsung.android.securitylogagent:
+      Service com.samsung.android.securitylogagent.services.FileZippingService:
+        Created for: 14s 453ms uptime
+        Starts: 42, launches: 42
+  u0a202:
+    Wi-Fi network: 1.59MB received, 3.04MB sent (packets 3403 received, 4007 sent)
+    WiFi AP wakeups: 1
+    WiFi Idle time:   0ms (0.0%)
+    WiFi Rx time:     34s 347ms (97.0%)
+    WiFi Tx time:     1s 61ms (3.0%)
+    WiFi Power drain: 0mAh
+    Wake lock *job*/com.united.mobile.android/com.united.mobile.communications.couchbase.UALAPISyncIntentService realtime
+    Wake lock *launch* realtime
+    Job com.united.mobile.android/com.united.mobile.communications.couchbase.UALAPISyncIntentService: 2s 848ms realtime (3 times)
+    Foreground activities: 14m 48s 178ms realtime (2 times) (running)
+    Top for: 14m 48s 224ms 
+    Cached for: 174ms 
+    Total running: 14m 48s 398ms 
+    Proc com.android.chrome:sandboxed_process0:
+      CPU: 46s 50ms usr + 17s 810ms krn ; 0ms fg
+      1 starts
+    Proc com.united.mobile.android:
+      CPU: 2m 14s 540ms usr + 19s 960ms krn ; 2s 110ms fg
+      1 starts
+    Apk com.android.chrome:
+      Service org.chromium.content.app.SandboxedProcessService0:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+    Apk com.united.mobile.android:
+      Service com.united.mobile.communications.couchbase.UALAPISyncIntentService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 3
